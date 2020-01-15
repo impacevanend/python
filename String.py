@@ -26,3 +26,29 @@ print(myStr.endswith("World"))
 #separa el texto por espacio(predeterminado), coma etc.
 print(myStr.split())
 
+#Buscar carácter, encuentra la posición.
+print(myStr.find("o"))
+#Buscar el indice del carácter
+print(myStr.find("W"))
+#Cantidad de caracteres
+print(len(myStr))
+#Buscar el indice de la palabra
+print(myStr.index("e"))
+#Conocer si el dato es numérico
+print(myStr.isnumeric())
+#Conocer si el dato es alfanumérico
+print(myStr.isalpha())
+
+#conocer el carácter en una posición
+print(myStr[4])
+print(myStr[-1])
+
+#concatenar texto sin utilizar el signo +
+
+print(f"Un saludo, {myStr}")
+print("Un saludo, {0}".format(myStr))
+
+
+
+
+
