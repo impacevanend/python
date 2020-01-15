@@ -79,3 +79,31 @@ colors.pop(0)
 print(f"Se elimino con pop el valor 'red'{colors}")
 print("--------------------------")
 
+# *Eliminar todos los elementos de una lista
+# print(f"Los elementos actuales son:{colors}")
+# colors.clear()
+# print(f"Los elementos despues de clear():{colors}")
+
+#* Ordenar los elementos de una lista
+print("--------------------------")
+print(colors)
+colors.sort()
+print(colors)
+print("--------------------------")
+
+#* Ordenar elementos a la inversa
+print(colors)
+colors.sort(reverse=True)
+print(colors)
+
+#*Consultar el indice de un elemento
+print(colors)
+print(f" El indice, del elemento brown es: {colors.index('brown')}")
+
+#*Contar las veces que aparece un elemento en la lista.
+
+print(colors)
+print(f" Las veces que aparece el elemento orange son: {colors.count('orange')}")
+
+
+
