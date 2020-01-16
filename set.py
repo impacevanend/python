@@ -23,5 +23,14 @@ print(colors)
 #*Remover todos los elementos de un conjunto set
 
 
-colors.clear()
-print(f"Resultado de utilizar el método clear():{colors}")
+# colors.clear()
+# print(f"Resultado de utilizar el método clear():{colors}")
+
+#*Eliminar definitivamente el conjunto de elementos.
+
+# print(colors)
+
+# del colors
+
+# print(colors)
+
